@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Accessibility</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" aria-label="Main Navigation" role="navigation">
+            <a class="navbar-brand" href="#">
+                <img src="https://media.licdn.com/dms/image/C4E0BAQE6A7mQROuOFg/company-logo_200_200/0?e=2159024400&v=beta&t=7mi9c_GzgwqjPendb11pzgZ5BSdvkfeb7Nb9EdVFxws"
+                    alt="company logo" style="width:40px;" aria-label="Company logo">
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a aria-labelledby="link 1" class="nav-link" href="#">Link 1</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-labelledby="link 2" class="nav-link" href="#">Link 2</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-labelledby="link 3" class="nav-link" href="#">Link 3</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-labelledby="link 4" class="nav-link" href="#">Link 4</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-labelledby="link 5" class="nav-link" href="#">Link 5</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <br><br>
+    <table width="100%" height="100%"
+        background="https://png.pngtree.com/thumb_back/fh260/back_pic/00/01/56/2356050ba772772.jpg" role="banner"
+        aria-label="Banner">
+        <tr>
+            <td align="center">
+                <p>
+                    <font color="white">
+                        <h1>Tricon Infotech</h1>
+                        <p>Partnering with Success</p>
+                        <input type="search" placeholder="Search">
+                    </font>
+                </p>
+            </td>
+        </tr>
+    </table>
+
+    <main>
+        <div class="container" tabindex="0">
+            <h1>Featured</h1>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card">
+                        <h3>Products</h3>
+                        <ul>
+                            <li>Paywheel</li>
+                            <li>RQMS</li>
+                            <li>Smart choice</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card">
+                        <h3>Services</h3>
+                        <ul>
+                            <li>Plaas</li>
+                            <li>Design</li>
+                            <li>Digital</li>
+                            <li>ERP</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card">
+                        <h3>Branches</h3>
+                        <ul>
+                            <li>India</li>
+                            <li>US</li>
+                            <li>UAE</li>
+                            <li>Australia</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card">
+                        <h3>Clients</h3>
+                        <ul>
+                            <li>Taylor and Francis</li>
+                            <li>Pearson</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container" tabindex="0">
+            <h1>Collection</h1>
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card">
+                        <h3>Paywheel</h3>
+                        <p>PayWheel is a leading cloud based payroll management product for organizations in India.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card">
+                        <h3>RQMS</h3>
+                        <p>RQMS(Residential Quarter Management System) is an SAP add-on that helps organizations
+                            effectively manage their residential quarters.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card">
+                        <h3>Smart Choice</h3>
+                        <p>SmartChoice is a Google Chrome plugin that lets you to view the ratings of your favorite
+                            books online using the site goodreads.com.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <hr>
+
+    <div class="imprint" aria-label="imprint section">
+        <div class="row" tabindex="0">
+            <div class="col-lg-2 col-md-2 col-sm-2">
+                <img src="https://pg.edu.pl/image/journal/article?img_id=51528738&t=1483954879293"
+                    alt="Taylor and Francis" class="img-thumbnail" aria-label="taylor and francis logo">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2">
+                <img src="https://mk0digitallearn7ttjx.kinstacdn.com/wp-content/uploads/2018/02/Pearson-logo-2016.jpg"
+                    alt="Pearson" class="img-thumbnail" aria-label="pearson logo">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2">
+                <img src="https://pbs.twimg.com/profile_images/599145165828136960/OwqDquRc.png" alt="Paywheel"
+                    class="img-thumbnail" aria-label="paywheel logo">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/1200px-SAP_2011_logo.svg.png"
+                    alt="Sap" class="img-thumbnail" aria-label="sap logo">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2">
+                <img src="https://www.triconinfotech.com/wp-content/uploads/2017/10/RQMS_2.png" alt="RQMS"
+                    class="img-thumbnail" aria-label="RQMS logo">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2">
+                <img src="https://content1.jdmagicbox.com/comp/bangalore/93/080pf018893/catalogue/tricon-infotech-pvt-ltd-koramangala-bangalore-computer-software-developers-sts60f.jpg"
+                    alt="Tricon" class="img-thumbnail" aria-label="tricon logo">
+            </div>
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <div class="row" tabindex="0">
+            <div class="col-lg-3 col-sm-3">
+                <h3>Privacy</h3>
+                <p>privacy</p>
+                <p>privacy</p>
+                <p>privacy</p>
+            </div>
+            <div class="col-lg-3 col-sm-3">
+                <h3>Help</h3>
+                <p>help</p>
+                <p>help</p>
+                <p>help</p>
+            </div>
+            <div class="col-lg-3 col-sm-3">
+                <h3>Contact</h3>
+                <p>Tricon Infotech Pvt Ltd
+                    # 143, 144, Hosur Main Road,
+                    Koramangala Industrial Layout,
+                    Bengaluru, Karnataka – 560095,
+                    India.</p>
+            </div>
+            <div class="col-lg-3 col-sm-3">
+                <a href="#" class="fa fa-facebook" aria-label="facebook"></a>
+                <a href="#" class="fa fa-twitter" aria-label="twitter"></a>
+                <a href="#" class="fa fa-instagram" aria-label="instagram"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
